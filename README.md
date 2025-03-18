@@ -13,7 +13,7 @@ Ensure you have the following installed on your system:
 
 1. **Clone the Repository**
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/HassanRana009/Backend-Boilerplate.git
    cd backend-boilerplate
    ```
 
@@ -23,12 +23,8 @@ Ensure you have the following installed on your system:
    ```
 
 3. **Set Up Environment Variables**
-   Create a `.env` file in the root directory and configure the following variables:
-   ```env
-   DATABASE_URL=postgres://username:password@localhost:5432/profiledb
-   PORT=3000
-   JWT_SECRET=your_secret_key
-   ```
+   Create a `.env` file in the root directory and configure the variables:
+
 
 ## Database Setup
 
@@ -84,13 +80,6 @@ backend-boilerplate/
 ├── README.md
 ```
 
-## API Endpoints
-
-| Method | Endpoint      | Description         |
-|--------|-------------|---------------------|
-| GET    | /api/users  | Get all users       |
-| POST   | /api/users  | Create a new user   |
-| GET    | /api/users/:id | Get user by ID  |
 
 ## Troubleshooting
 
